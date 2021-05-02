@@ -52,7 +52,8 @@ export class Wraper {
     mostrarFichero(ruta:string) : void {
         if (fs.existsSync(ruta)) {
             // comprueba si el directorio esta vacio o no
-            fs.readFileSync(ruta);
+            let contenido = fs.readFileSync(ruta);
+            return console.log(contenido);
         } else {
             return console.log(chalk.red('ERROR.La ruta dada no existe.'));
         }

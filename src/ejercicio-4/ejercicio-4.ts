@@ -115,8 +115,8 @@ yargs.command({
         // si no hago esta comprobacion da un error de argumento desconocido, **no entiendo el motivo**
         if (argv.rutaOrigen === 'string', argv.rutaDestino === 'string')
             wraper.mover(argv.rutaOrigen, argv.rutaDestino);
-    },*/
-});
+    },
+});*/
 
 
 // analiza los datos introducidos en la consola

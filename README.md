@@ -6,7 +6,6 @@ Fecha: 02/05/2021
 
 Asignatura: Desarrollo de Sistemas Informáticos
 
-El informe está en la rama documentación en index.md
 
 [GitHub Pages]()
 
