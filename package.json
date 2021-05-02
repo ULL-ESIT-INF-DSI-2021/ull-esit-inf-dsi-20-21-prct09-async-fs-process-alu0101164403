@@ -11,7 +11,7 @@
     "coverage": "nyc npm test && nyc report --reporter=lcov",
     "start": "tsc-watch --onSuccess \"node dist/ejercicio-1.js\"",
     "eslint-init": "eslint --init",
-    "doc": "typedoc; touch ./docs/.nojekyll"
+    "doc": "typedoc; touch ./doc/.nojekyll"
   },
   "keywords": [],
   "author": "",

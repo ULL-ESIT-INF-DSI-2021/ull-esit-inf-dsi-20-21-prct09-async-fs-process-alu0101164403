@@ -234,6 +234,11 @@ it('comprobarRuta() funciona.', () => {
 
 ## CONCLUSIÓN
 
-La API de Node.js me parece muy útil y facil de usar, ahorra mucho trabajo. Intenté que funcionase las actions de github y el cubrimiento con coverals y sonar-cloud. Sin embargo creo que coveralls no me está funcionando.
+La API de Node.js me parece muy útil y facil de usar, ahorra mucho trabajo. Intenté que funcionase las actions de github y el cubrimiento con coverals y sonar-cloud. Sin embargo coveralls no me está funcionando.
 
 ## BIBLIOGRAFÍA
+
+https://qastack.mx/programming/15630770/node-js-check-if-path-is-file-or-directory
+
+https://nodejs.org/api/fs.html
+
