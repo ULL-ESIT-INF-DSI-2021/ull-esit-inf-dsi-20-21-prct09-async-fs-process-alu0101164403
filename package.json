@@ -9,7 +9,7 @@
   "scripts": {
     "test": "mocha",
     "coverage": "nyc npm test && nyc report --reporter=lcov",
-    "start": "tsc-watch --onSuccess \"node dist/aplicacion.js\"",
+    "start": "tsc-watch --onSuccess \"node dist/ejercicio-1.js\"",
     "eslint-init": "eslint --init",
     "doc": "typedoc; touch ./docs/.nojekyll"
   },
@@ -19,6 +19,8 @@
   "devDependencies": {
     "@types/chai": "^4.2.17",
     "@types/mocha": "^8.2.2",
+    "@types/node": "^15.0.1",
+    "@types/yargs": "^16.0.1",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
     "chai": "^4.3.4",
@@ -30,5 +32,9 @@
     "tsc-watch": "^4.2.9",
     "typedoc": "^0.20.36",
     "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "yargs": "^16.2.0"
   }
 }
